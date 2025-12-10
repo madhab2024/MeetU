@@ -1,0 +1,69 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url(./public/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landingPageContainer nav {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+}
+
+.landingPageContainer nav h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.landingPageContainer nav .navlist {
+  display: flex;
+  gap: 1.6rem;
+  cursor: pointer;
+}
+
+.landingMainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  height: 80vh;
+  align-items: center;
+}
+.landingMainContainer .text h2{
+  font-size: 2.2rem;
+}
+.landingMainContainer .text p{
+  font-size: 1.5rem;
+}
+
+.landingMainContainer .image img {
+  height: 70vh;
+  width: auto;
+}
+
+.text div[role='button']{
+  background: #a058ffff;
+  margin-top: 2rem;
+  height: 4rem;
+  width: 12rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background: #a058ffff;
+    transform: scale(1.1);
+  }
+}
+.text a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7rem;
+}
